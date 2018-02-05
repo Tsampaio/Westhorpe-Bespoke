@@ -1,22 +1,85 @@
-/*
-Author: Matt McIntyre
-Client: Westhorpe Bespoke
-*/
+/* CSS DIRECTORY
 
-Body {
-    font-size: 14px;
-    font-family: Helvetica sans-serif;
+{ AUTHOR: MATT MCINTYRE }
+
+1. NAVIGATION
+2. HEADER SECTION
+3.
+4.
+5.
+6.
+7.
+8.
+
+/**************** APPLIED TO ALL ****************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+/**************** 1. NAVIGATION ****************/
+
+.container-nav-ctn {
+    font-size: 18px;
+    display: flex;
+    height: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.container-nav-ctn ul li a {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
     color: black;
 }
 
-/********** NAVIGATION **********/
-
-nav {
-    font-size: 18px;
-    display: flex;
+.container-nav-ctn ul li a:hover {
+    color: white;
 }
 
-li {
-    list-style: none;
-    padding: 5px;
+/********** END **********/
+
+/**************** 2. HEADER SECTION ****************/
+
+header {
+    background-image: url(../Img/Hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.name {
+    color: white;
+    text-align: center;
 }
