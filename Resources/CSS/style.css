@@ -1,0 +1,22 @@
+/*
+Author: Matt McIntyre
+Client: Westhorpe Bespoke
+*/
+
+Body {
+    font-size: 14px;
+    font-family: Helvetica sans-serif;
+    color: black;
+}
+
+/********** NAVIGATION **********/
+
+nav {
+    font-size: 18px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
