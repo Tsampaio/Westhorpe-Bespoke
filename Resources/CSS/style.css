@@ -3,13 +3,12 @@
 { AUTHOR: MATT MCINTYRE }
 
 1. NAVIGATION
-2. HEADER SECTION
-3.
-4.
-5.
-6.
-7.
-8.
+2. HEADER
+3. ABOUT
+4. GALLERY
+5. TESTIMONIALS
+6. CONTACT US
+7. FOOTER
 
 /**************** APPLIED TO ALL ****************/
 
@@ -68,7 +67,7 @@ nav ul li {
 
 /********** END **********/
 
-/**************** 2. HEADER SECTION ****************/
+/**************** 2. HEADER ****************/
 
 header {
     background-image: url(../Img/Hero.jpeg);
@@ -83,3 +82,5 @@ header {
     color: white;
     text-align: center;
 }
+
+/********** END **********/
