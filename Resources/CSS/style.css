@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: Blair ITC Std, sans-serif;
+    font-family: Baskerville old face, Arial, sans-serif;
     font-size: 16px;
     font-weight: 100;
     line-height: 1.8;
@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Blair ITC Std, sans-serif;
+    font-family: Baskerville old face, Arial, sans-serif;
     font-weight: 100;
 }
 
@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     position: fixed;
     display: flex;
-    height: 60px;
     width: 100%;
+    height: 60px;
     padding-right: 30px;
     padding-left: 30px;
     align-items: center;
@@ -47,11 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo a {
-    color: white;
-    font-weight: normal;
     font-size: 16px;
+    font-weight: normal;
     text-decoration: none;
     letter-spacing: 2px;
+    color: white;
 }
 
 nav ul li {
@@ -59,11 +59,11 @@ nav ul li {
 }
 
 .container-nav-ctn ul li a {
-    color: white;
     font-size: 16px;
     font-weight: 100;
     padding: 10px 20px;
     text-decoration: none;
+    color: white;
     justify-content: flex-end;
 }
 
@@ -78,44 +78,85 @@ nav ul li {
 header {
     background-image: url(../Img/Hero2.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    left: 50px;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.name {
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.banner-text h1 {
     color: white;
-    position: relative;
+    font-size: 60px;
     text-align: center;
-    width: 500px;
-    height: 100px;
-    margin: 0 auto;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-shadow: -1px 1px 1px black;
 }
 
-.main-name-ctn h1 {
-    position: relative;
+.banner-text h2 {
+    color: white;
+    font-size: 30px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 1px black;
 }
 
-.main-name-ctn h2 {
-    position: relative;
+.btn-ctn {
+    align-items: center;
     text-align: center;
+}
+
+.button {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #454646;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
     letter-spacing: 2px;
+    outline: 0;
+    padding: 11px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all .1s ease-in-out;
 }
 
 /********** END **********/
 
 /**************** 3. ABOUT ****************/
 
-.about>h1 {
+.about {
+    display: flex;
     text-align: center;
-    letter-spacing: 2px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.about, p {
+.about-text>h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.about-text, p {
     text-align: center;
     letter-spacing: 1px;
+    line-height: 1.5;
+    background-color: #454646;
 }
 
 /********** END **********/
