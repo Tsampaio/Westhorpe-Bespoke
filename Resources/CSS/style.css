@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: Baskerville old face, Arial, sans-serif;
+    font-family: "blair", sans-serif;
     font-size: 18px;
     font-weight: 100;
     line-height: 1.8;
@@ -29,19 +29,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Baskerville old face, Arial, sans-serif;
+    font-family: "swift", sans-serif;
     font-weight: 100;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
 }
 
 /* 1. NAVIGATION
 ========================================================================== */
 
 .container-nav-ctn {
+    background-color: #454646;
     font-size: 18px;
     position: fixed;
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 50px;
     padding-right: 30px;
     padding-left: 30px;
     align-items: center;
@@ -62,7 +68,7 @@ nav ul li {
 
 .container-nav-ctn ul li a {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 600;
     padding: 10px 20px;
     text-decoration: none;
     color: white;
@@ -153,26 +159,57 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     padding-bottom: 5px;
+    letter-spacing: 2px;
 }
 
 .about-content h2 {
     text-align: center;
     letter-spacing: 2px;
     font-size: 22px;
-    font-weight: 100;
-    letter-spacing: 5px;
+}
+
+.about-content:nth-last-of-type(2) {
+    width: 100px;
 }
 
 .about-content p {
     color: #282829;
     display: block;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    margin-top: 5px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin: 5px 65px 40px;
+}
+
+.btn-ctn {
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-family: swift, sans-serif;
+    font-weight: 600;
+    background-color: #454646;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    outline: 0;
+    padding: 11px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all .1s ease-in-out;
+    min-width: 235px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid #454646;
+    color: #454646;
 }
 
 /* 4. GALLERY
@@ -203,9 +240,3 @@ header {
 
 /* 7. FOOTER
 ========================================================================== */
-
-.container-ftr {
-    background-color: #4A90E2;
-    display: flex;
-    font-size: 18px;
-}
