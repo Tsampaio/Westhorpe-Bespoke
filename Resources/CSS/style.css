@@ -20,11 +20,12 @@
 
 body {
     font-family: Baskerville old face, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
     line-height: 1.8;
     margin: 0;
     padding: 0;
+    line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +33,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
 }
 
-/**************** 1. NAVIGATION ****************/
+/* 1. NAVIGATION
+========================================================================== */
 
 .container-nav-ctn {
     font-size: 18px;
@@ -71,9 +73,8 @@ nav ul li {
     color: black;
 }
 
-/********** END **********/
-
-/**************** 2. HEADER ****************/
+/* 2. HEADER
+========================================================================== */
 
 header {
     background-image: url(../Img/Hero2.jpg);
@@ -110,7 +111,7 @@ header {
     text-shadow: -1px 1px 1px black;
 }
 
-.btn-ctn {
+/*.btn-ctn {
     align-items: center;
     text-align: center;
 }
@@ -130,33 +131,81 @@ header {
     text-decoration: none;
     text-align: center;
     transition: all .1s ease-in-out;
-}
+}*/
 
-/********** END **********/
+/* 3. ABOUT
+==========================================================================*/
 
-/**************** 3. ABOUT ****************/
-
-.about {
+.about-ctn {
     display: flex;
     text-align: center;
     height: 350px;
     text-align: center;
     align-items: center;
-    padding: 10px 20px;
+    margin-right: 150.50px;
+    margin-left: 150.50px;
 }
 
-.about-text>h1 {
+.about-content h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #959597;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.about-content h2 {
     text-align: center;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 22px;
+    font-weight: 100;
     letter-spacing: 5px;
 }
 
-.about-text, p {
+.about-content p {
+    color: #282829;
+    display: block;
+    font-size: 18px;
     text-align: center;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    background-color: #454646;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+    margin-top: 5px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
-/********** END **********/
+/* 4. GALLERY
+========================================================================== */
+
+.gallery-ctn {
+    /*border: 5px solid green;
+    display: flex;*/
+}
+
+.kitchen1 {
+    height: 562px;
+    width: 583px;
+}
+
+.kitchen2 {
+    height: 562px;
+    width: 583px;
+}
+
+.kitchen3 {
+    height: 562px;
+    width: 583px;
+}
+
+/* 5.TESTIMONIALS
+========================================================================== */
+
+/* 7. FOOTER
+========================================================================== */
+
+.container-ftr {
+    background-color: #4A90E2;
+    display: flex;
+    font-size: 18px;
+}
