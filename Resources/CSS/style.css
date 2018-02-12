@@ -23,9 +23,9 @@ body {
     font-size: 18px;
     font-weight: 100;
     line-height: 1.8;
+    line-height: 1.7;
     margin: 0;
     padding: 0;
-    line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,24 +42,24 @@ p {
 ========================================================================== */
 
 .container-nav-ctn {
-    background-color: #454646;
-    font-size: 18px;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    padding-right: 30px;
-    padding-left: 30px;
     align-items: center;
+    background-color: #454646;
+    display: flex;
+    font-size: 18px;
+    height: 50px;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    width: 100%;
 }
 
 .logo a {
+    color: white;
     font-size: 16px;
     font-weight: normal;
-    text-decoration: none;
     letter-spacing: 2px;
-    color: white;
+    text-decoration: none;
 }
 
 nav ul li {
@@ -67,12 +67,12 @@ nav ul li {
 }
 
 .container-nav-ctn ul li a {
+    color: white;
     font-size: 16px;
     font-weight: 600;
+    justify-content: flex-end;
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
-    justify-content: flex-end;
 }
 
 .container-nav-ctn ul li a:hover {
@@ -83,37 +83,37 @@ nav ul li {
 ========================================================================== */
 
 header {
+    align-items: center;
     background-image: url(../Img/Hero2.jpg);
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
     display: flex;
     height: 100vh;
     justify-content: center;
-    align-items: center;
 }
 
 .banner {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 10px 20px;
 }
 
 .banner-text h1 {
     color: white;
     font-size: 60px;
-    text-align: center;
     letter-spacing: 5px;
     line-height: 60px;
+    text-align: center;
     text-shadow: -1px 1px 1px black;
 }
 
 .banner-text h2 {
     color: white;
     font-size: 30px;
-    text-align: center;
     letter-spacing: 5px;
+    text-align: center;
     text-shadow: -1px 1px 1px black;
 }
 
@@ -143,29 +143,31 @@ header {
 ==========================================================================*/
 
 .about-ctn {
-    display: flex;
-    text-align: center;
-    height: 350px;
-    text-align: center;
     align-items: center;
-    margin-right: 150.50px;
+    border: 1px solid #454646;
+    display: flex;
+    height: 350px;
     margin-left: 150.50px;
+    margin-right: 150.50px;
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
 }
 
 .about-content h3 {
-    font-size: 10px;
-    margin-bottom: 5px;
     color: #959597;
+    font-size: 10px;
     font-weight: 300;
-    text-transform: uppercase;
-    padding-bottom: 5px;
     letter-spacing: 2px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .about-content h2 {
-    text-align: center;
-    letter-spacing: 2px;
     font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .about-content:nth-last-of-type(2) {
@@ -176,10 +178,10 @@ header {
     color: #282829;
     display: block;
     font-size: 15px;
-    text-align: center;
     letter-spacing: 0.2px;
     line-height: 1.7;
     margin: 5px 65px 40px;
+    text-align: center;
 }
 
 .btn-ctn {
@@ -188,22 +190,22 @@ header {
 }
 
 .button {
-    color: #fff;
-    display: inline-block;
-    font-size: 11px;
-    font-family: swift, sans-serif;
-    font-weight: 600;
     background-color: #454646;
     border: none;
-    border-radius: 2px;
     border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: swift, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 235px;
     outline: 0;
     padding: 11px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: all .1s ease-in-out;
-    min-width: 235px;
 }
 
 .button:hover {
@@ -215,14 +217,18 @@ header {
 /* 4. GALLERY
 ========================================================================== */
 
-.gallery-ctn {
-    /*border: 5px solid green;
-    display: flex;*/
+.gallery {
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #454646;
+    height: 750px;
 }
 
 .kitchen1 {
-    height: 562px;
-    width: 583px;
+    background-image: url ("Resources/Img/Kitchen3.jpg")
 }
 
 .kitchen2 {
@@ -235,8 +241,94 @@ header {
     width: 583px;
 }
 
-/* 5.TESTIMONIALS
+/* 5. TESTIMONIALS
 ========================================================================== */
+
+.testimonials {
+    padding: 30px;
+    text-align: center;
+}
+
+.test-ctn {
+    border: 1px solid #454646;
+    height: 750px;
+}
+
+/* 6. CONTACT US
+========================================================================== */
+
+.contact {
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-ctn {
+    border: 1px solid #454646;
+    height: 150px;
+    text-align: center;
+}
+
+.contact h1 {
+    padding-bottom: 10px;
+}
+
+.contact p {
+    padding-bottom: 10px;
+}
 
 /* 7. FOOTER
 ========================================================================== */
+
+footer {
+    color: #959597;
+    font-size: 12px;
+    padding: 0px 30px 0px 30px;
+}
+
+.footer-ctn p a:first-child {
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.footer-ctn {
+    align-items: center;
+    border: 1px solid #454646;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 14px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+.footer-ctn ul li a {
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-ctn ul li a:hover {
+    color: green;
+    transition: 0.2s;
+}
+
+.social a {
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: green;
+    transition: 0.2s;
+}
