@@ -10,7 +10,8 @@
 6. CONTACT US
 7. FOOTER
 
-/**************** APPLIED TO ALL ****************/
+/* APPLIED TO ALL
+========================================================================== */
 
 * {
     box-sizing: border-box;
@@ -117,27 +118,49 @@ header {
     text-shadow: -1px 1px 1px black;
 }
 
-/*.btn-ctn {
+.btn-appoint {
     align-items: center;
     text-align: center;
 }
 
-.button {
+.btn {
+    background-color: #454646;
+    border: 1px solid transparent;
+    border-radius: 2px;
     color: #fff;
+    display: block;
+    font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: 600;
-    background-color: #454646;
-    border: none;
-    border-radius: 2px;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
+    margin-top: 50px;
+    min-width: 235px;
     outline: 0;
     padding: 11px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: all .1s ease-in-out;
-}*/
+}
+
+.btn-appoint:hover {
+    background-color: transparent;
+    border: 1px solid #454646;
+    color: #454646;
+}
+
+.arrow {
+    text-align: center;
+    align-items: center;
+}
+
+.arrow a i {
+    bottom: 0px;
+    color: #454646;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+}
 
 /* 3. ABOUT
 ==========================================================================*/
@@ -208,7 +231,7 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.button:hover {
+.btn:hover {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
