@@ -44,7 +44,7 @@ p {
 
 .container-nav-ctn {
     align-items: center;
-    background-color: #454646;
+    /*background-color: #454646;*/
     display: flex;
     font-size: 18px;
     height: 50px;
@@ -85,8 +85,7 @@ nav ul li {
 
 header {
     align-items: center;
-    /*background-image: url(../Img/Hero2.jpg);*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/Hero2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/Tinified/Hero2.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,15 +96,12 @@ header {
 }
 
 .banner {
-    align-items: center;
-    display: flex;
-    justify-content: center;
     padding: 10px 20px;
 }
 
 .banner-text {
     text-align: center;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 .banner-text a {
@@ -139,7 +135,7 @@ header {
     border: 1px solid transparent;
     border-radius: 2px;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: 600;
@@ -250,11 +246,12 @@ header {
 ========================================================================== */
 
 .gallery {
+    border: 1px solid #454646;
     padding: 30px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: red;
+    margin-top: 30px;
 }
 
 .kitchen-ctn {
@@ -268,7 +265,7 @@ header {
 }
 
 .kitchen1 {
-    background-image: url("../Img/Kitchen3.jpg");
+    background-image: url("../Img/Tinified/Kitchen1.jpg");
     width: 47%;
     display: inline-block;
     background-size: cover;
@@ -276,7 +273,7 @@ header {
 }
 
 .kitchen2 {
-    background-image: url("../Img/Kitchen1.jpg");
+    background-image: url("../Img/Tinified/Kitchen2.jpg");
     display: inline-block;
     width: 47%;
     background-size: cover;
@@ -284,7 +281,7 @@ header {
 }
 
 .kitchen3 {
-    background-image: url("../Img/Kitchen2.jpg");
+    background-image: url("../Img/Tinified/Kitchen3.jpg");
     margin-top: 50px;
     width: 100%;
     background-size: cover;
