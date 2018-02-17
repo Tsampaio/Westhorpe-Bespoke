@@ -85,13 +85,15 @@ nav ul li {
 
 header {
     align-items: center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) url(../Img/Tinified/Hero.jpeg);
+    /*background-image: url(../Img/Hero2.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/Hero2.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     height: 100vh;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .banner {
@@ -99,6 +101,15 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px 20px;
+}
+
+.banner-text {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.banner-text a {
+    display: inline-block;
 }
 
 .banner-text h1 {
@@ -150,14 +161,12 @@ header {
 
 .arrow {
     text-align: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .arrow a i {
-    bottom: 0px;
     color: #454646;
     font-size: 50px;
-    position: absolute;
     text-align: center;
     transition: 0.5s;
 }
@@ -243,25 +252,42 @@ header {
 .gallery {
     padding: 30px;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
 }
 
-.container {
-    border: 1px solid #454646;
-    height: 750px;
+.kitchen-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kitchen-ctn>div {
+    height: 500px;
 }
 
 .kitchen1 {
-    background-image: url ("Resources/Img/Kitchen3.jpg")
+    background-image: url("../Img/Kitchen3.jpg");
+    width: 47%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .kitchen2 {
-    height: 562px;
-    width: 583px;
+    background-image: url("../Img/Kitchen1.jpg");
+    display: inline-block;
+    width: 47%;
+    background-size: cover;
+    background-position-y: -100px;
 }
 
 .kitchen3 {
-    height: 562px;
-    width: 583px;
+    background-image: url("../Img/Kitchen2.jpg");
+    margin-top: 50px;
+    width: 100%;
+    background-size: cover;
 }
 
 /* 5. TESTIMONIALS
