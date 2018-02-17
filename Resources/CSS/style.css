@@ -57,10 +57,12 @@ p {
 
 .logo a {
     color: white;
-    font-size: 16px;
-    font-weight: normal;
-    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
     text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 nav ul li {
@@ -69,15 +71,22 @@ nav ul li {
 
 .container-nav-ctn ul li a {
     color: white;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 100;
     justify-content: flex-end;
+    letter-spacing: 1px;
     padding: 10px 20px;
     text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+a:nth-child(5) {
+    color: red;
 }
 
 .container-nav-ctn ul li a:hover {
-    color: black;
+    color: #454646;
 }
 
 /* 2. HEADER
@@ -85,7 +94,7 @@ nav ul li {
 
 header {
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Img/Tinified/Hero2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../Img/Tinified/Kitchen1.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,38 +118,41 @@ header {
 }
 
 .banner-text h1 {
-    color: white;
-    font-size: 60px;
+    color: #fff;
+    font-size: 65px;
     letter-spacing: 5px;
     line-height: 60px;
+    margin-bottom: 15px;
     text-align: center;
-    text-shadow: -1px 1px 1px black;
+    text-shadow: text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .banner-text h2 {
-    color: white;
+    color: #fff;
     font-size: 30px;
     letter-spacing: 5px;
+    /*margin-bottom: 15px;*/
     text-align: center;
-    text-shadow: -1px 1px 1px black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.btn-appoint {
+/*.btn-appoint {
     align-items: center;
     text-align: center;
-}
+}*/
 
 .btn {
-    background-color: #454646;
-    border: 1px solid transparent;
+    /*background-color: #454646;*/
+    border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
     display: block;
     font-family: swift, sans-serif;
     font-size: 11px;
-    font-weight: 600;
-    margin-top: 50px;
+    font-weight: bold;
+    margin-top: 25px;
     min-width: 235px;
+    letter-spacing: 2px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
@@ -149,9 +161,9 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn-appoint:hover {
-    background-color: transparent;
-    border: 1px solid #454646;
+.btn:hover {
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
     color: #454646;
 }
 
@@ -161,7 +173,8 @@ header {
 }
 
 .arrow a i {
-    color: #454646;
+    color: /*#454646;*/
+    #fff;
     font-size: 50px;
     text-align: center;
     transition: 0.5s;
@@ -177,9 +190,9 @@ header {
     width: 1265px;
     height: auto;
     padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
     text-align: center;
+    background-color: /*#F4F4F4;*/
 }
 
 .about-content {
@@ -265,12 +278,9 @@ header {
 ========================================================================== */
 
 .gallery {
-    border: 1px solid #454646;
+    /*border: 1px solid #454646;*/
     padding: 30px;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 30px;
 }
 
 .kitchen-ctn {
@@ -285,8 +295,9 @@ header {
 
 .kitchen1 {
     background-image: url("../Img/Tinified/Kitchen1.jpg");
-    width: 47%;
+    width: 48%;
     display: inline-block;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -294,43 +305,111 @@ header {
 .kitchen2 {
     background-image: url("../Img/Tinified/Kitchen2.jpg");
     display: inline-block;
-    width: 47%;
+    width: 48%;
+    background-position: center;
     background-size: cover;
-    background-position-y: -100px;
+    background-repeat: no-repeat;
 }
 
-.kitchen3 {
+/*.kitchen3 {
     background-image: url("../Img/Tinified/Kitchen3.jpg");
     margin-top: 50px;
     width: 100%;
     background-size: cover;
-}
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
 
 /* 5. TESTIMONIALS
 ========================================================================== */
 
 .testimonials {
-    padding: 30px;
     text-align: center;
 }
 
 .test-ctn {
-    border: 1px solid #454646;
-    height: 750px;
+    /*border: 1px solid #454646;*/
+    height: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+/* TEST 1
+=================================== */
+
+.test1 {
+    background-color: #63777B;
+    color: #fff;
+    width: 1265px;
+    height: 295px;
+    margin: 20px 0px;
+}
+
+.test1 h2 {
+    padding: 20px 0px;
+}
+
+.test1 p {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.test1 cite {
+    padding: 20px 0px;
+    font-style: italic;
+}
+
+/* TEST 2
+=================================== */
+
+.test2 {
+    background-color: #63777B;
+    color: #fff;
+    width: 1265px;
+    height: 295px;
+    margin: 20px 0px;
+}
+
+.test2 p {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.customer {
+    display: block;
+}
+
+/* TEST 3
+=================================== */
+
+.test3 {
+    background-color: #95A5A6;
+    color: #fff;
+    width: 1265px;
+    height: 295px;
+}
+
+.test3 p {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.customer {
+    display: block;
 }
 
 /* 6. CONTACT US
 ========================================================================== */
 
 .contact {
-    padding: 30px;
     text-align: center;
 }
 
 .contact-ctn {
     border: 1px solid #454646;
-    height: 150px;
+    height: 250px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact h1 {
@@ -345,24 +424,23 @@ header {
 ========================================================================== */
 
 footer {
-    color: #959597;
+    background-color: #63777B;
     font-size: 12px;
     padding: 0px 30px 0px 30px;
 }
 
 .footer-ctn p a:first-child {
-    color: black;
+    color: #fff;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
 .footer-ctn {
     align-items: center;
-    border: 1px solid #454646;
-    color: black;
+    color: #ffffff;
     display: flex;
     font-size: 18px;
-    height: 50px;
+    height: 100px;
     justify-content: space-between;
     padding: 14px 0px;
     text-align: center;
@@ -374,7 +452,7 @@ footer ul li {
 }
 
 .footer-ctn ul li a {
-    color: black;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 100;
     justify-content: flex-end;
@@ -383,17 +461,17 @@ footer ul li {
 }
 
 .footer-ctn ul li a:hover {
-    color: green;
+    color: black;
     transition: 0.2s;
 }
 
 .social a {
-    color: black;
+    color: #ffffff;
     padding-left: 10px;
     text-decoration: none;
 }
 
 .social a:hover {
-    color: green;
+    color: black;
     transition: 0.2s;
 }
