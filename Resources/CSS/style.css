@@ -85,7 +85,7 @@ nav ul li {
 
 header {
     align-items: center;
-    background-image: url(../Img/Hero2.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) url(../Img/Tinified/Hero.jpeg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +128,7 @@ header {
     border: 1px solid transparent;
     border-radius: 2px;
     color: #fff;
-    display: block;
+    display: inline-block;
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: 600;
