@@ -101,7 +101,7 @@ header {
 
 .banner-text {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .banner-text a {
@@ -172,14 +172,21 @@ header {
 
 .about-ctn {
     align-items: center;
-    border: 1px solid #454646;
+    /*border: 1px solid #454646;*/
     display: flex;
-    height: 350px;
-    margin-left: 150.50px;
-    margin-right: 150.50px;
-    margin-top: 20px;
+    width: 1265px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     text-align: center;
+}
+
+.about-content {
+    margin-right: 232.5px;
+    margin-left: 232.5px;
+    width: 800px;
+    height: 272px;
 }
 
 .about-content h3 {
@@ -188,7 +195,6 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 5px;
-    padding-bottom: 5px;
     text-transform: uppercase;
 }
 
@@ -196,10 +202,20 @@ header {
     font-size: 22px;
     letter-spacing: 2px;
     text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px
 }
 
-.about-content:nth-last-of-type(2) {
-    width: 100px;
+.about-content h2:after {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 1px;
+    margin-left: -30px;
+    left: 50%;
+    bottom: 0px;
+    background-color: black;
 }
 
 .about-content p {
@@ -208,9 +224,11 @@ header {
     font-size: 15px;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    margin: 5px 65px 40px;
     text-align: center;
 }
+
+/* BUTTON
+=================================== */
 
 .btn-ctn {
     align-items: center;
@@ -221,7 +239,7 @@ header {
     background-color: #454646;
     border: none;
     border: 1px solid transparent;
-    border-radius: 2px;
+    border-radius: 0px;
     color: #fff;
     display: inline-block;
     font-family: swift, sans-serif;
@@ -229,6 +247,7 @@ header {
     font-weight: 600;
     min-width: 235px;
     outline: 0;
+    margin-top: 30px;
     padding: 11px 30px;
     text-align: center;
     text-decoration: none;
