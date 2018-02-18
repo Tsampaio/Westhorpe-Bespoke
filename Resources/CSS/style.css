@@ -5,7 +5,7 @@
 1. NAVIGATION
 2. HEADER
 3. ABOUT
-4. GALLERY
+4. INSPIRATION
 5. TESTIMONIALS
 6. CONTACT US
 7. FOOTER
@@ -136,12 +136,7 @@ header {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/*.btn-appoint {
-    align-items: center;
-    text-align: center;
-}*/
-
-.btn {
+.btn1 {
     /*background-color: #454646;*/
     border: 2px solid #fff;
     border-radius: 2px;
@@ -161,7 +156,7 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn:hover {
+.btn1:hover {
     background-color: #ffffff;
     border: 1px solid rgb(255, 255, 255);
     color: #454646;
@@ -248,7 +243,105 @@ header {
     text-align: center;
 }
 
-.button {
+.btn2 {
+    background-color: #454646;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    color: #fff;
+    display: inline-block;
+    font-family: swift, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 235px;
+    outline: 0;
+    margin-top: 30px;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    border: 1px solid #454646;
+    color: #454646;
+}
+
+/* 4. INSPIRATION
+========================================================================== */
+
+.inspiration {
+    /*border: 1px solid #454646;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.kitchen-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.kitchen-ctn>div {
+    height: 500px;
+    color: #fff;
+}
+
+.kitchen1 {
+    background-image: url("../Img/Tinified/Kitchen1.jpg");
+    width: 48%;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-top: 499px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+}
+
+.overlay h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.overlay i {
+    padding: 10px;
+    margin-right: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+/* BUTTON
+=================================== */
+
+.btn-ctn {
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
     background-color: #454646;
     border: none;
     border: 1px solid transparent;
@@ -274,33 +367,8 @@ header {
     color: #454646;
 }
 
-/* 4. GALLERY
-========================================================================== */
-
-.gallery {
-    /*border: 1px solid #454646;*/
-    padding: 30px;
-    text-align: center;
-}
-
-.kitchen-ctn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.kitchen-ctn>div {
-    height: 500px;
-}
-
-.kitchen1 {
-    background-image: url("../Img/Tinified/Kitchen1.jpg");
-    width: 48%;
-    display: inline-block;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/* KITCHEN 2
+=================================== */
 
 .kitchen2 {
     background-image: url("../Img/Tinified/Kitchen2.jpg");
@@ -309,15 +377,69 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.kitchen3 {
-    background-image: url("../Img/Tinified/Kitchen3.jpg");
-    margin-top: 100px;
+.overlay {
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-top: 499px;
+    transition: all 0.5s ease;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+}
+
+.overlay h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.overlay i {
+    padding: 10px;
+    margin-right: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+.btn-ctn {
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    background-color: #454646;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    color: #fff;
+    display: inline-block;
+    font-family: swift, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 235px;
+    outline: 0;
+    margin-top: 30px;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #454646;
+    color: #454646;
 }
 
 /* 5. TESTIMONIALS
@@ -336,6 +458,12 @@ header {
     width: 1265px;
     height: 295px;
     margin: 20px 0px;
+}
+
+.test1:hover {
+    background: #393e46;
+    border: #fff;
+    color: #fff;
 }
 
 .test1 h2 {
