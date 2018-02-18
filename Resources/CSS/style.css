@@ -311,27 +311,20 @@ header {
     background-repeat: no-repeat;
 }
 
-/*.kitchen3 {
+.kitchen3 {
     background-image: url("../Img/Tinified/Kitchen3.jpg");
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}*/
+}
 
 /* 5. TESTIMONIALS
 ========================================================================== */
 
 .testimonials {
     text-align: center;
-}
-
-.test-ctn {
-    /*border: 1px solid #454646;*/
-    height: 500px;
-    text-align: center;
-    align-items: center;
 }
 
 /* TEST 1
@@ -346,56 +339,94 @@ header {
 }
 
 .test1 h2 {
-    padding: 20px 0px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 .test1 p {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
+    padding-bottom: 25px;
 }
 
 .test1 cite {
-    padding: 20px 0px;
+    font-family: Merriweather;
     font-style: italic;
+}
+
+q {
+    font-family: Merriweather;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /* TEST 2
 =================================== */
 
 .test2 {
-    background-color: #63777B;
+    background-color: /*#63777B;*/
+    #95A5A6;
     color: #fff;
     width: 1265px;
-    height: 295px;
+    height: 325px;
     margin: 20px 0px;
 }
 
-.test2 p {
-    font-size: 28px;
-    line-height: 32px;
+.test2 h2 {
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
-.customer {
-    display: block;
+.test2 p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+
+.test2 cite {
+    font-family: Merriweather;
+    font-style: italic;
+}
+
+q {
+    font-family: Merriweather;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /* TEST 3
 =================================== */
 
 .test3 {
-    background-color: #95A5A6;
+    /*background-color: /*#63777B;*/
+    /*#9ACFC0;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 58%;
     color: #fff;
     width: 1265px;
-    height: 295px;
+    height: 325px;
+    margin: 20px 0px;
+}
+
+.test3 h2 {
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 .test3 p {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
+    padding-bottom: 25px;
 }
 
-.customer {
-    display: block;
+.test3 cite {
+    font-family: Merriweather;
+    font-style: italic;
+}
+
+q {
+    font-family: Merriweather;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 /* 6. CONTACT US
