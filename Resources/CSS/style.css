@@ -453,7 +453,8 @@ header {
 =================================== */
 
 .test1 {
-    background-color: #63777B;
+    background-color: #95A5A6;
+    /*#63777B;*/
     color: #fff;
     width: 1265px;
     height: 295px;
@@ -601,9 +602,9 @@ p {
     margin-bottom: 24px;
 }
 
-.my-map {
+#map {
+    height: 600px;
     width: 50%;
-    height: 100%;
 }
 
 /* 7. FOOTER
