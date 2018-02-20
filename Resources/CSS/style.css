@@ -602,6 +602,9 @@ p {
     margin-bottom: 24px;
 }
 
+/* GOOGLE MAP 
+=================================== */
+
 #map {
     height: 600px;
     width: 50%;

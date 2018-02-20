@@ -188,7 +188,7 @@
             <p>
                 Telephone:<a href="tel:07940402128"> 07940402128</a>
             <br>
-                Email: enquireis@westhorpebespoke.com
+                Email: enquiries@westhorpebespoke.com
             </p>
             <p>
                 Churchfield Industrial Park
@@ -207,14 +207,16 @@
                 Sat 9am til 4pm
             </p>
         </div>
+
         <!-- GOOGLE MAP LOCATION -->
+
         <div id="map"></div>
 
             <script>
                 function initMap() {
                     //Map options
                     var options = {
-                        zoom:16,
+                        zoom:15,
                         center: {lat:52.0955,lng:1.3126}
                     }
                     //New map
@@ -222,7 +224,7 @@
                     google.maps.Map(document.getElementById("map"), options);
 
                     // Add marker
-                    var marker = new google.maps.Map ({
+                    var marker = new google.maps.Marker ({
                         position:{lat:52.0955,lng:1.3126},
                         map:map
                     });
@@ -230,8 +232,8 @@
             </script>
 
             <script
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCafYEy4Tt-mZ_xUzMq2jUUr0cyXLZjY&callback=initMap"
-            async defer>
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbFeZeB46JZP_iUCdA8EasmDJtu3Vmpe4&callback=initMap"
+                async defer>
             </script>
 
     </section>
