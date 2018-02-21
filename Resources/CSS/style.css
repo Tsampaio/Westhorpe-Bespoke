@@ -81,10 +81,6 @@ nav ul li {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-a:nth-child(5) {
-    color: red;
-}
-
 .container-nav-ctn ul li a:hover {
     color: #454646;
 }
@@ -136,8 +132,7 @@ header {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.btn1 {
-    /*background-color: #454646;*/
+.btn-1 {
     border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
@@ -156,8 +151,8 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn1:hover {
-    background-color: #ffffff;
+.btn-1:hover {
+    background-color: #fff;
     border: 1px solid rgb(255, 255, 255);
     color: #454646;
 }
@@ -238,12 +233,9 @@ header {
 /* BUTTON
 =================================== */
 
-.btn-ctn {
+.btn-2 {
     align-items: center;
     text-align: center;
-}
-
-.btn2 {
     background-color: #95A5A6;
     border: none;
     border: 1px solid transparent;
@@ -263,7 +255,7 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn2:hover {
+.btn-2:hover {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
@@ -317,13 +309,42 @@ header {
 
 .overlay h3 {
     color: #fff;
-    font-size: 30px;
+    /*color: #959597;*/
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.overlay h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px
+}
+
+.overlay h2::after {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 1px;
+    margin-left: -30px;
+    left: 50%;
+    bottom: 0px;
+    background-color: white;
 }
 
 .overlay p {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 30px;
     margin-top: 30px;
+    display: block;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+    text-align: center;
 }
 
 .overlay i {
@@ -336,24 +357,18 @@ header {
 /* BUTTON
 =================================== */
 
-.btn-ctn {
-    align-items: center;
-    text-align: center;
-}
-
-.btn {
-    background-color: #454646;
-    border: none;
-    border: 1px solid transparent;
-    border-radius: 0px;
+.btn-1 {
+    border: 2px solid #fff;
+    border-radius: 2px;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-family: swift, sans-serif;
     font-size: 11px;
-    font-weight: 600;
-    min-width: 235px;
+    font-weight: bold;
+    margin-top: 25px;
+    max-width: 235px;
+    letter-spacing: 2px;
     outline: 0;
-    margin-top: 30px;
     padding: 11px 30px;
     text-align: center;
     text-decoration: none;
@@ -361,7 +376,7 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn:hover {
+.btn-1:hover {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
@@ -395,7 +410,32 @@ header {
 
 .overlay h3 {
     color: #fff;
-    font-size: 30px;
+    /*color: #959597;*/
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.overlay h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px
+}
+
+.overlay h2::after {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 1px;
+    margin-left: -30px;
+    left: 50%;
+    bottom: 0px;
+    background-color: white;
 }
 
 .overlay p {
@@ -411,24 +451,18 @@ header {
     display: inline-block;
 }
 
-.btn-ctn {
-    align-items: center;
-    text-align: center;
-}
-
-.btn {
-    background-color: #454646;
-    border: none;
-    border: 1px solid transparent;
-    border-radius: 0px;
+.btn-1 {
+    border: 2px solid #fff;
+    border-radius: 2px;
     color: #fff;
-    display: inline-block;
+    display: block;
     font-family: swift, sans-serif;
     font-size: 11px;
-    font-weight: 600;
-    min-width: 235px;
+    font-weight: bold;
+    margin-top: 25px;
+    max-width: 235px;
+    letter-spacing: 2px;
     outline: 0;
-    margin-top: 30px;
     padding: 11px 30px;
     text-align: center;
     text-decoration: none;
@@ -436,7 +470,7 @@ header {
     transition: all .1s ease-in-out;
 }
 
-.btn:hover {
+.btn-1:hover {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
@@ -566,7 +600,6 @@ q {
     display: flex;
     height: 600px;
     width: 1265px;
-    margin-bottom: 20px;
 }
 
 .column-container {
@@ -602,7 +635,32 @@ p {
     margin-bottom: 24px;
 }
 
-/* GOOGLE MAP 
+.btn-3 {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    font-family: swift, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 24px;
+    max-width: 235px;
+    letter-spacing: 2px;
+    outline: 0;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+}
+
+.btn-3:hover {
+    background-color: transparent;
+    border: 1px solid #454646;
+    color: #454646;
+}
+
+/* GOOGLE MAP
 =================================== */
 
 #map {
