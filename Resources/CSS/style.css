@@ -42,7 +42,7 @@ p {
 /* 1. NAVIGATION
 ========================================================================== */
 
-.container-nav-ctn {
+.nav-ctn {
     align-items: center;
     /*background-color: #454646;*/
     display: flex;
@@ -51,7 +51,7 @@ p {
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -69,7 +69,7 @@ nav ul li {
     display: inline-block;
 }
 
-.container-nav-ctn ul li a {
+.nav-ctn ul li a {
     color: white;
     font-size: 15px;
     font-weight: 100;
@@ -81,8 +81,12 @@ nav ul li {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.container-nav-ctn ul li a:hover {
+.nav-ctn ul li a:hover {
     color: #454646;
+}
+
+.nav-ctn ul li:last-child a {
+    padding-right: 0px;
 }
 
 /* 2. HEADER
@@ -309,7 +313,6 @@ header {
 
 .overlay h3 {
     color: #fff;
-    /*color: #959597;*/
     font-size: 10px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -559,16 +562,16 @@ q {
 =================================== */
 
 .test3 {
-    /*background-color: /*#63777B;*/
+    background-color: #63777B;
     /*#9ACFC0;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen4.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen4.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 58%;
     color: #fff;
     width: 1265px;
     height: 325px;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .test3 h2 {
@@ -596,7 +599,6 @@ q {
 ========================================================================== */
 
 .contact-row {
-    background-color: pink;
     display: flex;
     height: 600px;
     width: 1265px;
@@ -624,6 +626,11 @@ p {
     margin-bottom: 15px;
 }
 
+.column-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .horizontal-break {
     background-color: #63777c;
     height: 1px;
@@ -633,31 +640,6 @@ p {
 
 .column-container>p {
     margin-bottom: 24px;
-}
-
-.btn-3 {
-    border: 2px solid #fff;
-    border-radius: 2px;
-    color: #fff;
-    display: block;
-    font-family: swift, sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    margin-top: 24px;
-    max-width: 235px;
-    letter-spacing: 2px;
-    outline: 0;
-    padding: 11px 30px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .1s ease-in-out;
-}
-
-.btn-3:hover {
-    background-color: transparent;
-    border: 1px solid #454646;
-    color: #454646;
 }
 
 /* GOOGLE MAP
