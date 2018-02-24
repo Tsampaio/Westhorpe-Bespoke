@@ -1,0 +1,3 @@
+Smooth Scroll Fixed
+Script source added to index.html
+Removed Multiple Button-1 Classes

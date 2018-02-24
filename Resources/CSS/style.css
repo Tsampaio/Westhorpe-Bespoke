@@ -181,7 +181,7 @@ header {
     align-items: center;
     /*border: 1px solid #454646;*/
     display: flex;
-    width: 1265px;
+    /* width: 1265px; */
     height: auto;
     padding-top: 50px;
     text-align: center;
@@ -192,7 +192,7 @@ header {
 .about-content {
     margin-right: 232.5px;
     margin-left: 232.5px;
-    width: 800px;
+    /* width: 800px; */
     height: 272px;
 }
 
