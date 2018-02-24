@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: "blair", sans-serif;
+    font-family: 'Lora', serif;
     font-size: 18px;
     font-weight: 100;
     line-height: 1.8;
@@ -30,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "swift", sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
 }
 
@@ -62,7 +62,7 @@ p {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 nav ul li {
@@ -78,7 +78,7 @@ nav ul li {
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 .nav-ctn ul li a:hover {
@@ -94,7 +94,7 @@ nav ul li {
 
 header {
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../Img/Tinified/Kitchen1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../Img/Tinified/Kitchen1.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,17 +134,16 @@ header {
     /*margin-bottom: 15px;*/
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
 }
 
 .btn-1 {
     border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
-    display: block;
-    font-family: swift, sans-serif;
+    display: inline-block;
     font-size: 11px;
     font-weight: bold;
-    margin-top: 25px;
     min-width: 235px;
     letter-spacing: 2px;
     outline: 0;
@@ -156,9 +155,8 @@ header {
 }
 
 .btn-1:hover {
-    background-color: #fff;
+    background-color: #95A5A6;
     border: 1px solid rgb(255, 255, 255);
-    color: #454646;
 }
 
 .arrow {
@@ -181,7 +179,7 @@ header {
     align-items: center;
     /*border: 1px solid #454646;*/
     display: flex;
-    width: 1265px;
+    /* width: 1265px; */
     height: auto;
     padding-top: 50px;
     text-align: center;
@@ -190,9 +188,9 @@ header {
 }
 
 .about-content {
-    margin-right: 232.5px;
-    margin-left: 232.5px;
-    width: 800px;
+    margin-right: 215px;
+    margin-left: 215px;
+    /* width: 800px; */
     height: 272px;
 }
 
@@ -246,11 +244,11 @@ header {
     border-radius: 0px;
     color: #fff;
     display: inline-block;
-    font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: 600;
     min-width: 235px;
     outline: 0;
+    letter-spacing: 5px;
     margin-top: 30px;
     padding: 11px 30px;
     text-align: center;
@@ -270,7 +268,7 @@ header {
 
 .inspiration {
     /*border: 1px solid #454646;*/
-    padding: 30px;
+    /*padding: 30px;*/
     text-align: center;
 }
 
@@ -288,8 +286,8 @@ header {
 }
 
 .kitchen1 {
-    background-image: url("../Img/Tinified/Kitchen1.jpg");
-    width: 48%;
+    background-image: url("../Img/Tinified/Kitchen6.jpeg");
+    width: 49.5%;
     display: inline-block;
     background-position: center;
     background-size: cover;
@@ -297,7 +295,7 @@ header {
     overflow: hidden;
 }
 
-.overlay {
+.kitchen1 .overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.0);
@@ -307,12 +305,12 @@ header {
     transition: all 0.5s ease;
 }
 
-.overlay:hover {
+.kitchen1 .overlay:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 100px;
+    padding-top: 85px;
 }
 
-.overlay h3 {
+.kitchen1 .overlay h3 {
     color: #fff;
     font-size: 10px;
     font-weight: 300;
@@ -321,7 +319,7 @@ header {
     text-transform: uppercase;
 }
 
-.overlay h2 {
+.kitchen1 .overlay h2 {
     font-size: 22px;
     letter-spacing: 2px;
     text-align: center;
@@ -330,7 +328,7 @@ header {
     margin-bottom: 20px
 }
 
-.overlay h2::after {
+.kitchen1 .overlay h2::after {
     content: "";
     position: absolute;
     width: 54px;
@@ -341,8 +339,8 @@ header {
     background-color: white;
 }
 
-.overlay p {
-    font-size: 15px;
+.kitchen1 .overlay p {
+    font-size: 18px;
     margin-bottom: 30px;
     margin-top: 30px;
     display: block;
@@ -351,7 +349,7 @@ header {
     text-align: center;
 }
 
-.overlay i {
+.kitchen1 .overlay i {
     padding: 10px;
     margin-right: 5px;
     color: #fff;
@@ -365,11 +363,9 @@ header {
     border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
-    display: block;
-    font-family: swift, sans-serif;
+    display: inline-block;
     font-size: 11px;
     font-weight: bold;
-    margin-top: 25px;
     max-width: 235px;
     letter-spacing: 2px;
     outline: 0;
@@ -392,29 +388,30 @@ header {
 .kitchen2 {
     background-image: url("../Img/Tinified/Kitchen2.jpg");
     display: inline-block;
-    width: 48%;
+    width: 49.5%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.overlay {
+.kitchen2 .overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.0);
     padding-top: 499px;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: all 0.5s ease;
 }
 
-.overlay:hover {
+.kitchen2 .overlay:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 100px;
+    padding-top: 85px;
 }
 
-.overlay h3 {
+.kitchen2 .overlay h3 {
     color: #fff;
-    /*color: #959597;*/
     font-size: 10px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -422,7 +419,7 @@ header {
     text-transform: uppercase;
 }
 
-.overlay h2 {
+.kitchen2 .overlay h2 {
     font-size: 22px;
     letter-spacing: 2px;
     text-align: center;
@@ -431,7 +428,7 @@ header {
     margin-bottom: 20px
 }
 
-.overlay h2::after {
+.kitchen2 .overlay h2::after {
     content: "";
     position: absolute;
     width: 54px;
@@ -442,13 +439,17 @@ header {
     background-color: white;
 }
 
-.overlay p {
-    font-size: 20px;
+.kitchen2 .overlay p {
+    font-size: 18px;
     margin-bottom: 30px;
     margin-top: 30px;
+    display: block;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+    text-align: center;
 }
 
-.overlay i {
+.kitchen2 .overlay i {
     padding: 10px;
     margin-right: 5px;
     color: #fff;
@@ -459,11 +460,9 @@ header {
     border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
-    display: block;
-    font-family: swift, sans-serif;
+    display: inline-block;
     font-size: 11px;
     font-weight: bold;
-    margin-top: 25px;
     max-width: 235px;
     letter-spacing: 2px;
     outline: 0;
@@ -484,13 +483,14 @@ header {
 =================================== */
 
 .kitchen3 {
-    background-image: url("../Img/Tinified/Kitchen3.jpg");
+    background-image: url("../Img/Tinified/Kitchen7.jpeg");
     display: inline-block;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    margin: 15px 0px;
 }
 
 .overlay {
@@ -501,9 +501,9 @@ header {
     transition: all 0.5s ease;
 }
 
-.overlay:hover {
+.kitchen3 .overlay:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 100px;
+    padding-top: 95px;
 }
 
 .overlay h3 {
@@ -536,10 +536,12 @@ header {
     background-color: white;
 }
 
-.overlay p {
+.kitchen3 .overlay p {
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
 }
 
 .overlay i {
@@ -553,11 +555,9 @@ header {
     border: 2px solid #fff;
     border-radius: 2px;
     color: #fff;
-    display: block;
-    font-family: swift, sans-serif;
+    display: inline-block;
     font-size: 11px;
     font-weight: bold;
-    margin-top: 25px;
     max-width: 235px;
     letter-spacing: 2px;
     outline: 0;
@@ -588,7 +588,6 @@ header {
     background-color: #95A5A6;
     /*#63777B;*/
     color: #fff;
-    width: 1265px;
     height: 295px;
     margin: 20px 0px;
 }
@@ -627,7 +626,6 @@ q {
     background-color: /*#63777B;*/
     #95A5A6;
     color: #fff;
-    width: 1265px;
     height: 325px;
     margin: 20px 0px;
 }
@@ -657,21 +655,25 @@ q {
 =================================== */
 
 .test3 {
-    /*background-color: #63777B;*/
+    background-color: #95A5A6;
     /*#9ACFC0;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen4.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen7.jpeg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 58%;
     color: #fff;
-    width: 1265px;
-    height: 325px;
-    margin: 20px 0px 0px 0px;
+    height: 450px;
 }
 
 .test3 h2 {
-    padding-top: 35px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.horizontal-break1 {
+    background-color: #fff;
+    height: 1px;
+    width: 54px;
+    margin: 20px auto 25px;
 }
 
 .test3 p {
@@ -681,12 +683,10 @@ q {
 }
 
 .test3 cite {
-    font-family: Merriweather;
     font-style: italic;
 }
 
 q {
-    font-family: Merriweather;
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
@@ -696,7 +696,6 @@ q {
 .contact-row {
     display: flex;
     height: 600px;
-    width: 1265px;
 }
 
 .column-container {
@@ -726,10 +725,10 @@ p {
     color: #fff;
 }
 
-.horizontal-break {
+.horizontal-break2 {
     background-color: #63777c;
     height: 1px;
-    width: 50px;
+    width: 54px;
     margin: 20px auto 25px;
 }
 
@@ -749,7 +748,7 @@ p {
 ========================================================================== */
 
 footer {
-    background-color: #63777B;
+    background-color: #95A5A6;
     font-size: 12px;
     padding: 0px 30px 0px 30px;
 }
