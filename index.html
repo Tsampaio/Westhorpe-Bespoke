@@ -4,6 +4,7 @@
 <head>
     <title> Westhorpe Bespoke | Specialist Kitchen Installations </title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Resources/CSS/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
@@ -136,60 +137,99 @@
 
     <section class="testimonials" id="testimonials">
 
-            <!-- TEST 1 -->
-            <!--<div class="test1">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-                <h2><q>A pleasure from start to finish</q></h2>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
 
-                <p><q>I could’nt be happier with how my kitchen turned out. <br>
-                    Harry did such an amazing job and I would highly recommend
-                    Westhorpe Bespoke <br> to anyone that’s looking for a
-                    professional service and attention to detail.</q>
-                </p>
+                <!-- ======== TEST 1 ======== -->
 
-                <cite>
-                    Mr & Mrs Livingstone
-                    <span>Woodbridge, Suffolk</span>
-                </cite>
+                <div class="carousel-inner">
 
-            </div>-->
-            <!-- TEST 2 -->
-            <!--<div class="test2">
+                    <div class="carousel-item active">
+                        <div class="test1">
 
-                <h2><q>Nothing short of outstanding</q></h2>
+                            <h3>An exceptional reputation</h3>
 
-                <p><q>The team at Westhorpe Bespoke did a fantastic job installing our new <br>
-                    kitchen and the level of service and professionalism was outstanding. <br>
-                    They delivered on everything as promised and even finished ahead of time.<br>
-                    Thank you so much.</q>
-                </p>
+                            <h2><q>Excellent Customer Service</q></h2>
 
-                <cite class="customer">
-                    Mr & Mrs Cunningham
-                    <span>Framlingham, Suffolk</span>
-                </cite>
+                            <div class="horizontal-break1"></div>
 
-            </div>-->
+                            <p><q>Having asked around for a good kitchen fitting Specialist, Westhorpe Bespoke came
+                                highly recommended <br> and I can honestly say, they didn’t disappoint.
+                                From start to finish the service was fantastic <br>and the installation went without
+                                out any trouble at all. <br>Great service!</q>
+                            </p>
 
-            <div class="test3">
+                            <cite class="customer">
+                                Mr & Mrs Doherty - Lavenham
+                            </cite>
 
-                <h3>An exceptional reputation</h3>
+                        </div>
+                    </div>
 
-                <h2><q>Excellent Customer Service</q></h2>
+                    <!-- ======== TEST 2 ======== -->
 
-                <div class="horizontal-break1"></div>
+                    <div class="carousel-item">
+                        <div class="test2">
 
-                <p><q>Having asked around for a good kitchen fitting Specialist, Westhorpe Bespoke came
-                    highly recommended <br> and I can honestly say, they didn’t disappoint.
-                    From start to finish the service was fantastic <br>and the installation went without
-                    out any trouble at all. <br>Great service!</q>
-                </p>
+                            <h3>An exceptional reputation</h3>
 
-                <cite class="customer">
-                    Mr & Mrs Doherty - Lavenham
-                </cite>
+                            <h2><q>A pleasure from start to finish</q></h2>
 
-            </div>
+                            <div class="horizontal-break2"></div>
+
+                            <p><q>I could’nt be happier with how my kitchen turned out.
+                                Harry did such an amazing job <br>and I would highly recommend
+                                Westhorpe Bespoke to anyone that’s looking <br>for a
+                                professional service and attention to detail.</q>
+                            </p>
+
+                            <cite class="customer">
+                                Mr & Mrs knight - Framlingham
+                            </cite>
+
+                        </div>
+                    </div>
+
+                    <!-- ======== TEST 3 ======== -->
+
+                    <div class="carousel-item">
+                        <div class="test3">
+
+                            <h3>An exceptional reputation</h3>
+
+                            <h2><q>Nothing short of outstanding</q></h2>
+
+                            <div class="horizontal-break3"></div>
+
+                            <p><q>The team at Westhorpe Bespoke did a fantastic job installing our new kitchen
+                                and the level of service <br>and professionalism was outstanding.
+                                They delivered on everything as promised and even finished ahead of time.<br>
+                                Thank you so much.</q>
+                            </p>
+
+                            <cite class="customer">
+                                Mr & Mrs Cunningham - Woodbridge
+                            </cite>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ======== CONTROLS / ARROWS ======== -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+        </div>
 
     </section>
     <!-- =================== 6. CONTACT US =================== -->
@@ -200,7 +240,7 @@
             <h3>
                 <a href="mailto:enquiries@westhorpebespoke.com">Contact Us</a>
             </h3>
-            <div class="horizontal-break2"></div>
+            <div class="horizontal-break4"></div>
             <p>
                 Email: <a href="mailto:info@westhorpebespoke.com"> info@westhorpebespoke.com</a>
             </p>
@@ -211,13 +251,6 @@
                 <br>
                 Sat 09:00 - 16:00
             </p>
-
-            <div class="contact-form">
-                <input type="text" name="Name" value="" placeholder="Please enter your name">
-                <input type="text" name="Name" value="" placeholder="Enter your Message">
-                <input type="text" name="Name" value="" placeholder="Mobile">
-            </div>
-            
         </div>
 
 
@@ -282,6 +315,8 @@
 <!-- =================== SCRIPTS =================== -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 
 </body>

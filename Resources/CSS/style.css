@@ -596,88 +596,8 @@ header {
     text-align: center;
 }
 
-/* TEST 1
-=================================== */
-
-/*
-.test1 {
+.test1, .test2, .test3 {
     background-color: #95A5A6;
-    #63777B;
-    color: #fff;
-    height: 295px;
-    margin: 20px 0px;
-}
-
-.test1:hover {
-    background: #393e46;
-    border: #fff;
-    color: #fff;
-}
-
-.test1 h2 {
-    padding-top: 35px;
-    padding-bottom: 20px;
-}
-
-.test1 p {
-    font-size: 24px;
-    line-height: 32px;
-    padding-bottom: 25px;
-}
-
-.test1 cite {
-    font-family: Merriweather;
-    font-style: italic;
-}
-
-q {
-    font-family: Merriweather;
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-*/
-
-/* TEST 2
-=================================== */
-
-/*
-.test2 {
-    background-color: /*#63777B;
-    #95A5A6;
-    color: #fff;
-    height: 325px;
-    margin: 20px 0px;
-}
-
-.test2 h2 {
-    padding-top: 35px;
-    padding-bottom: 20px;
-}
-
-.test2 p {
-    font-size: 24px;
-    line-height: 32px;
-    padding-bottom: 25px;
-}
-
-.test2 cite {
-    font-family: Merriweather;
-    font-style: italic;
-}
-
-q {
-    font-family: Merriweather;
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-*/
-
-/* TEST 3
-=================================== */
-
-.test3 {
-    background-color: #fff;
-    /*#9ACFC0;*/
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Tinified/Kitchen7.jpeg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 58%;
@@ -685,7 +605,7 @@ q {
     padding: 50px 0px;
 }
 
-.test3 h3 {
+.test1 h3, .test2 h3, .test3 h3 {
     color: #959597;
     font-size: 10px;
     font-weight: 300;
@@ -694,7 +614,7 @@ q {
     text-transform: uppercase;
 }
 
-.test3 h2 {
+.test1 h2, .test2 h2, .test3 h2 {
     color: #282829;
     font-size: 22px;
     letter-spacing: 2px;
@@ -702,14 +622,14 @@ q {
     position: relative;
 }
 
-.horizontal-break1 {
+.horizontal-break1, .horizontal-break2, .horizontal-break3 {
     background-color: #282829;
     height: 1px;
     width: 54px;
     margin: 20px auto 25px;
 }
 
-.test3 p {
+.test1 p, .test2 p, .test3 p {
     color: #282829;
     display: block;
     font-size: 20px;
@@ -718,7 +638,7 @@ q {
     padding-bottom: 20px;
 }
 
-.test3 cite {
+.test1 cite, .test2 cite, .test3 cite {
     font-family: Merriweather;
     font-style: italic;
     color: #282829;
@@ -770,17 +690,11 @@ q {
     color: #fff;
 }
 
-.horizontal-break2 {
+.horizontal-break4 {
     background-color: #63777c;
     height: 1px;
     width: 54px;
     margin: 20px auto 25px;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    border-color: #63777c;
 }
 
 /* GOOGLE MAP
@@ -848,26 +762,26 @@ footer ul li {
 }
 
 /*#back-to-top {
-    height: 50px;
-    width: 50px;
-    background-color: #191919;
-    background-color: rgba(20, 20, 20, 0.4);
-    position: fixed;
-    bottom: -80px;
-    right: 10px;
-    z-index: 1000;
-    padding: 9px 13px 7px 13px;
-    cursor: pointer;
-    -webkit-transform: translate3d(0, 0, 0);
-    opacity: 0;
+height: 50px;
+width: 50px;
+background-color: #191919;
+background-color: rgba(20, 20, 20, 0.4);
+position: fixed;
+bottom: -80px;
+right: 10px;
+z-index: 1000;
+padding: 9px 13px 7px 13px;
+cursor: pointer;
+-webkit-transform: translate3d(0, 0, 0);
+opacity: 0;
 }
 
 #back-to-top i {
-    line-height: 32px;
-    font-size: 24px;
-    color: #fff;
-    display: block;
-    width: 24px;
-    margin: 0 auto;
-    content: "\e60c";
+line-height: 32px;
+font-size: 24px;
+color: #fff;
+display: block;
+width: 24px;
+margin: 0 auto;
+content: "\e60c";
 }*/
