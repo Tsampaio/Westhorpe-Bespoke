@@ -20,7 +20,7 @@
 }
 
 body {
-    ffont-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-size: 18px;
     font-weight: 100;
     line-height: 1.8;
@@ -30,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 100;
 }
 
@@ -99,8 +99,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 100vh;
     flex-direction: column;
+    height: 100vh;
     justify-content: space-between;
 }
 
@@ -109,8 +109,8 @@ header {
 }
 
 .banner-text {
-    text-align: center;
     margin-top: 20%;
+    text-align: center;
 }
 
 .banner-text a {
@@ -124,14 +124,13 @@ header {
     line-height: 60px;
     margin-bottom: 15px;
     text-align: center;
-    text-shadow: text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .banner-text h2 {
     color: #fff;
     font-size: 30px;
     letter-spacing: 5px;
-    /*margin-bottom: 15px;*/
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -144,9 +143,9 @@ header {
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: 2px;
     margin-top: 25px;
     min-width: 235px;
-    letter-spacing: 2px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
@@ -162,13 +161,12 @@ header {
 }
 
 .arrow {
-    text-align: center;
     align-items: flex-end;
+    text-align: center;
 }
 
 .arrow a i {
-    color: /*#454646;*/
-    #fff;
+    color: #fff;
     font-size: 50px;
     text-align: center;
     transition: 0.5s;
@@ -179,20 +177,17 @@ header {
 
 .about-ctn {
     align-items: center;
-    /*border: 1px solid #454646;*/
+    background-color: #F4F4F4;
     display: flex;
-    /* width: 1265px; */
     height: 350px;
     padding: 50px;
     text-align: center;
     text-align: center;
-    background-color: /*#F4F4F4;*/
 }
 
 .about-content {
-    margin-right: 150px;
     margin-left: 150px;
-    /* width: 800px; */
+    margin-right: 150px;
 }
 
 .about-content h3 {
@@ -207,31 +202,29 @@ header {
 .about-content h2 {
     font-size: 22px;
     letter-spacing: 2px;
-    text-align: center;
-    position: relative;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px
+    position: relative;
 }
 
 .about-content h2:after {
+    background-color: black;
+    bottom: 0px;
     content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
     position: absolute;
     width: 54px;
-    height: 1px;
-    margin-left: -30px;
-    left: 50%;
-    bottom: 0px;
-    background-color: black;
 }
 
 .about-content p {
     color: #282829;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.2px;
-    line-height: 1.7;
+    line-height: 1.8;
     padding-bottom: 25px;
-    text-align: center;
 }
 
 /* BUTTON
@@ -239,7 +232,6 @@ header {
 
 .btn-2 {
     align-items: center;
-    text-align: center;
     background-color: #95A5A6;
     border: none;
     border: 1px solid transparent;
@@ -249,14 +241,15 @@ header {
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: 600;
+    letter-spacing: 2px;
     min-width: 235px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .1s ease-in-out;
-    letter-spacing: 2px;
 }
 
 .btn-2:hover {
@@ -281,28 +274,28 @@ header {
 }
 
 .kitchen-ctn>div {
-    height: 500px;
     color: #fff;
+    height: 500px;
 }
 
 .kitchen1 {
     background-image: url("../Img/Tinified/Kitchen6.jpeg");
-    width: 50%;
-    display: inline-block;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
     overflow: hidden;
+    width: 50%;
 }
 
 .kitchen1 .overlay {
-    width: 100%;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.0);
-    padding-top: 499px;
+    height: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 499px;
     transition: all 0.5s ease;
+    width: 100%;
 }
 
 .kitchen1 .overlay:hover {
@@ -322,40 +315,40 @@ header {
 .kitchen1 .overlay h2 {
     font-size: 22px;
     letter-spacing: 2px;
-    text-align: center;
-    position: relative;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px
+    position: relative;
+    text-align: center
 }
 
 .kitchen1 .overlay h2::after {
+    background-color: white;
+    bottom: 0px;
     content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
     position: absolute;
     width: 54px;
-    height: 1px;
-    margin-left: -30px;
-    left: 50%;
-    bottom: 0px;
-    background-color: white;
 }
 
 .kitchen1 .overlay p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-top: 30px;
     display: block;
+    font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
     padding-left: 60px;
-    padding-right: 60px
+    padding-right: 60px;
+    text-align: center
 }
 
 .kitchen1 .overlay i {
-    padding: 10px;
-    margin-right: 5px;
     color: #fff;
     display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
 }
 
 /* BUTTON
@@ -369,9 +362,9 @@ header {
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
-    letter-spacing: 2px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
@@ -391,22 +384,22 @@ header {
 
 .kitchen2 {
     background-image: url("../Img/Tinified/Kitchen2.jpg");
-    display: inline-block;
-    width: 50%;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
     overflow: hidden;
+    width: 50%;
 }
 
 .kitchen2 .overlay {
-    width: 100%;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.0);
-    padding-top: 499px;
+    height: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 499px;
     transition: all 0.5s ease;
+    width: 100%;
 }
 
 .kitchen2 .overlay:hover {
@@ -426,40 +419,40 @@ header {
 .kitchen2 .overlay h2 {
     font-size: 22px;
     letter-spacing: 2px;
-    text-align: center;
-    position: relative;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px
+    position: relative;
+    text-align: center
 }
 
 .kitchen2 .overlay h2::after {
+    background-color: white;
+    bottom: 0px;
     content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
     position: absolute;
     width: 54px;
-    height: 1px;
-    margin-left: -30px;
-    left: 50%;
-    bottom: 0px;
-    background-color: white;
 }
 
 .kitchen2 .overlay p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-top: 30px;
     display: block;
+    font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
     padding-left: 60px;
-    padding-right: 60px
+    padding-right: 60px;
+    text-align: center
 }
 
 .kitchen2 .overlay i {
-    padding: 10px;
-    margin-right: 5px;
     color: #fff;
     display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
 }
 
 .btn-1 {
@@ -470,9 +463,9 @@ header {
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
-    letter-spacing: 2px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
@@ -492,23 +485,23 @@ header {
 
 .kitchen3 {
     background-image: url("../Img/Tinified/Kitchen7.jpeg");
-    display: inline-block;
-    width: 100%;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
     overflow: hidden;
+    width: 100%;
     /*margin: 15px 0px;*/
 }
 
 .kitchen3 .overlay {
-    width: 100%;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.0);
-    padding-top: 499px;
+    height: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 499px;
     transition: all 0.5s ease;
+    width: 100%;
 }
 
 .kitchen3 .overlay:hover {
@@ -528,40 +521,40 @@ header {
 .kitchen3 .overlay h2 {
     font-size: 22px;
     letter-spacing: 2px;
-    text-align: center;
-    position: relative;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px
+    position: relative;
+    text-align: center
 }
 
 .kitchen3 .overlay h2::after {
+    background-color: white;
+    bottom: 0px;
     content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
     position: absolute;
     width: 54px;
-    height: 1px;
-    margin-left: -30px;
-    left: 50%;
-    bottom: 0px;
-    background-color: white;
 }
 
 .kitchen3 .overlay p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-top: 30px;
     display: block;
+    font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
     padding-left: 270px;
     padding-right: 270px;
+    text-align: center;
 }
 
 .kitchen3 .overlay i {
-    padding: 10px;
-    margin-right: 5px;
     color: #fff;
     display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
 }
 
 .btn-1 {
@@ -572,9 +565,9 @@ header {
     font-family: swift, sans-serif;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
-    letter-spacing: 2px;
     outline: 0;
     padding: 11px 30px;
     text-align: center;
@@ -597,10 +590,11 @@ header {
 }
 
 .test1, .test2, .test3 {
-    background-color: #95A5A6;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #F4F4F4;
     background-position-y: 58%;
+    background-repeat: no-repeat;
+    /*#95A5A6;*/
+    background-size: cover;
     height: 400px;
     padding: 50px 0px;
 }
@@ -618,15 +612,15 @@ header {
     color: #282829;
     font-size: 22px;
     letter-spacing: 2px;
-    text-align: center;
     position: relative;
+    text-align: center;
 }
 
 .horizontal-break1, .horizontal-break2, .horizontal-break3 {
     background-color: #282829;
     height: 1px;
-    width: 54px;
     margin: 20px auto 25px;
+    width: 54px;
 }
 
 .test1 p, .test2 p, .test3 p {
@@ -639,11 +633,11 @@ header {
 }
 
 .test1 cite, .test2 cite, .test3 cite {
-    font-family: Merriweather;
-    font-style: italic;
     color: #282829;
     display: block;
+    font-family: Merriweather;
     font-size: 20px;
+    font-style: italic;
     letter-spacing: 0.2px;
     line-height: 1.7;
 }
@@ -658,21 +652,22 @@ q {
 
 .contact-row {
     display: flex;
-    height: 600px;
+    height: 700px;
     width: 1265px;
 }
 
 .column-container {
     background-color: #BCCBCC;
-    width: 50%;
-    height: 100%;
     color: #fff;
-    padding: 63.250px
+    height: 100%;
+    padding: 50px 63.250px 63.250px 63.250px;
+    width: 50%;
 }
 
 .column-container p {
-    font-size: 24px;
-    padding-bottom: 30px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .column-container p>a {
@@ -681,27 +676,75 @@ q {
 }
 
 .column-container h3 {
-    text-align: center;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .column-container a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 .horizontal-break4 {
     background-color: #63777c;
     height: 1px;
-    width: 54px;
     margin: 20px auto 25px;
+    width: 54px;
+}
+
+/* CONTACT FORM
+=================================== */
+
+.form {
+    /*background-color:#ccc;*/
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #F4F4F4;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+}
+
+input [type=text], textarea {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #F4F4F4;
+    height: 150px;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #95A5A6;
+    border: 1px solid #BCCBCC;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    /*background-color: #45a049;*/
+    background-color: transparent;
+    border: 1px solid #95A5A6;
 }
 
 /* GOOGLE MAP
 =================================== */
 
 #map {
-    height: 600px;
+    height: 700px;
     width: 50%;
 }
 
