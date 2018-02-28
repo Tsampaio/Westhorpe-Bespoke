@@ -44,7 +44,6 @@ p {
 
 .nav-ctn {
     align-items: center;
-    /*background-color: #454646;*/
     display: flex;
     font-size: 18px;
     height: 50px;
@@ -65,8 +64,16 @@ p {
     /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
+.nav-ctn h1 {
+    margin-bottom: 0px;
+}
+
 nav ul li {
     display: inline-block;
+}
+
+.nav-ctn ul {
+    margin-bottom: 0px;
 }
 
 .nav-ctn ul li a {
@@ -180,7 +187,7 @@ header {
     background-color: #F4F4F4;
     display: flex;
     height: 350px;
-    padding: 50px;
+    padding: 100px;
     text-align: center;
     text-align: center;
 }
@@ -545,8 +552,8 @@ header {
     line-height: 1.7;
     margin-bottom: 30px;
     margin-top: 30px;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding-left: 280px;
+    padding-right: 280px;
     text-align: center;
 }
 
@@ -593,7 +600,6 @@ header {
     background-color: #F4F4F4;
     background-position-y: 58%;
     background-repeat: no-repeat;
-    /*#95A5A6;*/
     background-size: cover;
     height: 400px;
     padding: 50px 0px;
@@ -652,20 +658,20 @@ q {
 
 .contact-row {
     display: flex;
-    height: 700px;
+    height: auto;
     width: 1265px;
 }
 
 .column-container {
-    background-color: #BCCBCC;
+    background-color: #95A5A6;
     color: #fff;
     height: 100%;
-    padding: 50px 63.250px 63.250px 63.250px;
+    padding: 40px 63.250px 63.250px 63.250px;
     width: 50%;
 }
 
 .column-container p {
-    font-size: 15px;
+    font-size: 16px;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -703,7 +709,7 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    color: #F4F4F4;
+    color: #282829;
     margin-bottom: 16px;
     margin-top: 6px;
     padding: 10px;
@@ -715,7 +721,7 @@ input [type=text], textarea {
     border: 1px solid #ccc;
     border-radius: 0px;
     box-sizing: border-box;
-    color: #F4F4F4;
+    color: #282829;
     height: 150px;
     margin-bottom: 16px;
     margin-top: 6px;
@@ -725,9 +731,9 @@ input [type=text], textarea {
 }
 
 input[type=submit] {
-    background-color: #95A5A6;
-    border: 1px solid #BCCBCC;
-    border-radius: 4px;
+    border: 1px solid #5b6e72;
+    background-color: #63777B;
+    border-radius: 0px;
     color: white;
     cursor: pointer;
     padding: 12px 20px;
@@ -736,15 +742,14 @@ input[type=submit] {
 
 input[type=submit]:hover {
     /*background-color: #45a049;*/
-    background-color: transparent;
-    border: 1px solid #95A5A6;
+    background-color: inherit;
 }
 
 /* GOOGLE MAP
 =================================== */
 
 #map {
-    height: 700px;
+    height: auto;
     width: 50%;
 }
 
@@ -752,7 +757,7 @@ input[type=submit]:hover {
 ========================================================================== */
 
 footer {
-    background-color: #95A5A6;
+    background-color: #63777B;
     font-size: 12px;
     padding: 0px 30px 0px 30px;
 }
@@ -763,34 +768,43 @@ footer {
     text-decoration: none;
 }
 
+.footer-ctn p {
+    margin-bottom: 0px;
+}
+
 .footer-ctn {
     align-items: center;
-    color: #ffffff;
+    color: #fff;
     display: flex;
     font-size: 18px;
-    height: 100px;
     justify-content: space-between;
-    padding: 14px 0px;
+    padding: 20px 0px;
     text-align: center;
     width: 100%;
 }
 
 footer ul li {
     display: inline-block;
+    margin-bottom: 0px;
 }
 
 .footer-ctn ul li a {
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
     font-weight: 100;
     justify-content: flex-end;
     padding: 10px 20px;
     text-decoration: none;
+    margin-bottom: 0px;
 }
 
 .footer-ctn ul li a:hover {
     color: black;
     transition: 0.2s;
+}
+
+.footer-ctn ul {
+    margin-bottom: 0px;
 }
 
 .social a {
@@ -803,28 +817,3 @@ footer ul li {
     color: black;
     transition: 0.2s;
 }
-
-/*#back-to-top {
-height: 50px;
-width: 50px;
-background-color: #191919;
-background-color: rgba(20, 20, 20, 0.4);
-position: fixed;
-bottom: -80px;
-right: 10px;
-z-index: 1000;
-padding: 9px 13px 7px 13px;
-cursor: pointer;
--webkit-transform: translate3d(0, 0, 0);
-opacity: 0;
-}
-
-#back-to-top i {
-line-height: 32px;
-font-size: 24px;
-color: #fff;
-display: block;
-width: 24px;
-margin: 0 auto;
-content: "\e60c";
-}*/
