@@ -43,6 +43,7 @@ p {
 ========================================================================== */
 
 .nav-ctn {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     align-items: center;
     display: flex;
     font-size: 18px;
@@ -61,7 +62,6 @@ p {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 .nav-ctn h1 {
@@ -85,7 +85,6 @@ nav ul li {
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 .nav-ctn ul li a:hover {
@@ -269,7 +268,6 @@ header {
 ========================================================================== */
 
 .inspiration {
-    /*border: 1px solid #454646;*/
     padding: 0px;
     text-align: center;
 }
@@ -498,7 +496,6 @@ header {
     display: inline-block;
     overflow: hidden;
     width: 100%;
-    /*margin: 15px 0px;*/
 }
 
 .kitchen3 .overlay {
@@ -659,7 +656,6 @@ q {
 .contact-row {
     display: flex;
     height: auto;
-    width: 1265px;
 }
 
 .column-container {
@@ -741,7 +737,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    /*background-color: #45a049;*/
     background-color: inherit;
 }
 
@@ -760,6 +755,7 @@ footer {
     background-color: #63777B;
     font-size: 12px;
     padding: 0px 30px 0px 30px;
+    display: flex;
 }
 
 .footer-ctn p a:first-child {
