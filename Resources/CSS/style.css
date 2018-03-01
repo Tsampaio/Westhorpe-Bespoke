@@ -185,15 +185,18 @@ header {
     align-items: center;
     background-color: #F4F4F4;
     display: flex;
-    height: 350px;
-    padding: 100px;
+    /*height: 350px;*/
+    /*padding: 100px;*/
+    padding: 50px 0px;
     text-align: center;
     text-align: center;
 }
 
 .about-content {
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .about-content h3 {
@@ -598,7 +601,7 @@ header {
     background-position-y: 58%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    /*height: 400px; */
     padding: 50px 0px;
 }
 
@@ -812,4 +815,111 @@ footer ul li {
 .social a:hover {
     color: black;
     transition: 0.2s;
+}
+
+
+/* ********* Telmo ************/
+
+/****** FOR IPAD ***********/
+@media(max-width: 768px) {
+    header {
+        height: 50vh;
+    }
+
+    .kitchen1 .overlay:hover,  .kitchen2 .overlay:hover{
+        padding-top: 40px;
+    }
+
+    .kitchen3 .overlay:hover {
+        padding-top: 105px;
+    }
+
+    .kitchen3 .overlay > p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .test1, .test2, .test3 {
+        padding: 50px 80px;
+    }
+
+    .footer-ctn ul{
+        display: none;
+    }
+    
+}
+
+
+/****** FOR IPAD ***********/
+@media(max-width: 500px) {
+
+    .nav-ctn ul li a {
+
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+    }
+
+    .about-content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .kitchen1, .kitchen2 {
+        width: 100%;
+    }
+
+    .kitchen3 .overlay:hover {
+        padding-top: 80px;
+    }
+
+    .kitchen3 .overlay > p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-row {
+        flex-wrap: wrap;
+    }
+
+    .column-container {
+        
+        width: 100%;
+    }
+
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+
+    .footer-ctn p:nth-child(2) {
+        display: none;
+        
+    }
+
+    .footer-ctn {
+       
+        justify-content: center;
+    }
+
+    .social a {
+        
+        padding-left: 30px;
+    }
+}
+
+
+
+
+.carousel-control-next-icon{
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    color: black;
 }
