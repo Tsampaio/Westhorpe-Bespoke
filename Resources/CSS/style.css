@@ -67,7 +67,7 @@ p {
 .nav-ctn h1 {
     margin-bottom: 0px;
     line-height: 1px;
-    font-size: 15px;
+    font-size: 15px
 }
 
 nav ul li {
@@ -166,6 +166,7 @@ header {
     background-color: #fff;
     border: 1px solid rgb(255, 255, 255);
     color: #454646;
+    text-decoration: none;
 }
 
 .arrow {
@@ -187,18 +188,14 @@ header {
     align-items: center;
     background-color: #F4F4F4;
     display: flex;
-    /*height: 350px;*/
-    /*padding: 100px;*/
     padding: 50px 0px;
     text-align: center;
     text-align: center;
 }
 
 .about-content {
-    /* margin-left: 150px;
-    margin-right: 150px; */
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 
 .about-content h3 {
@@ -267,6 +264,7 @@ header {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
+    text-decoration: none;
 }
 
 /* 4. INSPIRATION
@@ -387,6 +385,7 @@ header {
     background-color: transparent;
     border: 1px solid #454646;
     color: #454646;
+    text-decoration: none;
 }
 
 /* KITCHEN 2
@@ -603,7 +602,6 @@ header {
     background-position-y: 58%;
     background-repeat: no-repeat;
     background-size: cover;
-    /*height: 400px; */
     padding: 50px 0px;
 }
 
@@ -655,6 +653,22 @@ q {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2363777B' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2363777B' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.carousel-indicators li {
+    background-color: #95A5A6;
+}
+
+.carousel-indicators .active {
+    background-color: #63777B;
+}
+
 /* 6. CONTACT US
 ========================================================================== */
 
@@ -675,6 +689,8 @@ q {
     font-size: 16px;
     padding-bottom: 10px;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .column-container p>a {
@@ -819,10 +835,12 @@ footer ul li {
     transition: 0.2s;
 }
 
+/* MEDIA QUERIES
+========================================================================== */
 
-/* ********* Telmo ************/
+/* IPAD
+=================================== */
 
-/****** FOR IPAD ***********/
 @media(max-width: 768px) {
     header {
         height: 50vh;
@@ -853,10 +871,39 @@ footer ul li {
 
 
 /****** FOR IPAD ***********/
+
 @media(max-width: 500px) {
 
     .nav-ctn ul li a {
 
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+
+
+    .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
+        padding-top: 40px;
+    }
+    .kitchen3 .overlay:hover {
+        padding-top: 105px;
+    }
+    .kitchen3 .overlay>p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .test1, .test2, .test3 {
+        padding: 50px 80px;
+    }
+    .footer-ctn ul {
+        display: none;
+    }
+}
+
+/* IPHONE
+=================================== */
+
+@media(max-width: 500px) {
+    .nav-ctn ul li a {
         font-size: 10px;
         padding: 10px 5px;
     }
@@ -897,6 +944,24 @@ footer ul li {
         width: 100%;
     }
 
+
+    .kitchen1, .kitchen2 {
+        width: 100%;
+    }
+    .kitchen3 .overlay:hover {
+        padding-top: 80px;
+    }
+    .kitchen3 .overlay>p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-row {
+        flex-wrap: wrap;
+    }
+    .column-container {
+        width: 100%;
+    }
+
     #map {
         height: 500px;
         width: 100%;
@@ -917,21 +982,3 @@ footer ul li {
         padding-left: 30px;
     }
 }
-
-
-
-
-.carousel-control-next-icon{
-    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-
-
-
-
-.glyphicon.glyphicon-chevron-right{
-    color:rgb(46, 8, 88);
- }
