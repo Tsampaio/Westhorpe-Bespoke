@@ -845,42 +845,31 @@ footer ul li {
     header {
         height: 50vh;
     }
-
-    .kitchen1 .overlay:hover,  .kitchen2 .overlay:hover{
+    .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
         padding-top: 40px;
     }
-
     .kitchen3 .overlay:hover {
         padding-top: 105px;
     }
-
-    .kitchen3 .overlay > p {
+    .kitchen3 .overlay>p {
         padding-left: 100px;
         padding-right: 100px;
     }
-
     .test1, .test2, .test3 {
         padding: 50px 80px;
     }
-
-    .footer-ctn ul{
+    .footer-ctn ul {
         display: none;
     }
-    
 }
-
 
 /****** FOR IPAD ***********/
 
 @media(max-width: 500px) {
-
     .nav-ctn ul li a {
-
         font-size: 10px;
         padding: 10px 5px;
     }
-
-
     .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
         padding-top: 40px;
     }
@@ -907,44 +896,17 @@ footer ul li {
         font-size: 10px;
         padding: 10px 5px;
     }
-
     .banner-text h1 {
         font-size: 40px;
         line-height: 45px;
     }
-
     .banner-text h2 {
         font-size: 20px;
     }
-
     .about-content {
         margin-left: 40px;
         margin-right: 40px;
     }
-
-    .kitchen1, .kitchen2 {
-        width: 100%;
-    }
-
-    .kitchen3 .overlay:hover {
-        padding-top: 80px;
-    }
-
-    .kitchen3 .overlay > p {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .contact-row {
-        flex-wrap: wrap;
-    }
-
-    .column-container {
-        
-        width: 100%;
-    }
-
-
     .kitchen1, .kitchen2 {
         width: 100%;
     }
@@ -961,24 +923,33 @@ footer ul li {
     .column-container {
         width: 100%;
     }
-
+    .kitchen1, .kitchen2 {
+        width: 100%;
+    }
+    .kitchen3 .overlay:hover {
+        padding-top: 80px;
+    }
+    .kitchen3 .overlay>p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-row {
+        flex-wrap: wrap;
+    }
+    .column-container {
+        width: 100%;
+    }
     #map {
         height: 500px;
         width: 100%;
     }
-
     .footer-ctn p:nth-child(2) {
         display: none;
-        
     }
-
     .footer-ctn {
-       
         justify-content: center;
     }
-
     .social a {
-        
         padding-left: 30px;
     }
 }
