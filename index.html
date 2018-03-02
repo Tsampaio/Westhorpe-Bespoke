@@ -248,16 +248,18 @@
                 We'd love to hear from you, send us a message and we'll respond as soon as possible.
             </p>
 
-            <form class="form" action="index.html" method="post">
+            <form class="form" method="post" action="send_form_email.php">
+
+                   
 
             <label for="name">Name*</label>
-            <input type="text" name="name" value=""name="name" required>
+            <input type="text" name="first_name" required>
 
             <label for="email">Email address *</label>
-            <input type="text" name="email" value=""required>
+            <input type="text" name="email" required>
 
             <label for="subject">Message</label>
-            <textarea id="subject" name="subject"></textarea>
+            <textarea id="subject" name="comments"></textarea>
 
             <input type="submit" value="Send Message">
 
