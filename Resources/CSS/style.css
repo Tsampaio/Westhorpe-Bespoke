@@ -66,6 +66,8 @@ p {
 
 .nav-ctn h1 {
     margin-bottom: 0px;
+    line-height: 1px;
+    font-size: 15px
 }
 
 nav ul li {
