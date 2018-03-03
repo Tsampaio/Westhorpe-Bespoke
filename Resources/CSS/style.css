@@ -856,11 +856,11 @@ footer ul li {
         height: 100vh;
     }
     .nav-ctn ul li a {
-        font-size: 10px;
+        font-size: 16px;
         padding: 10px 5px;
     }
     .banner-text {
-        margin-top: 30%;
+        margin-top: 20%;
         text-align: center;
     }
     .about-content {
@@ -874,7 +874,7 @@ footer ul li {
         padding: 0px;
     }
     .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
-        padding-top: 115px;
+        /*padding-top: 115px;*/
     }
     .kitchen3 .overlay:hover {
         padding-top: 125px;
@@ -890,7 +890,7 @@ footer ul li {
             height: 50vh;
         }
         .nav-ctn ul li a {
-            font-size: 10px;
+            font-size: 16px;
             padding: 10px 5px;
         }
         .about-content {
@@ -924,6 +924,18 @@ footer ul li {
             font-size: 10px;
             padding: 10px 5px;
         }
+        .banner-text {
+            margin-top: 20%;
+            text-align: center;
+        }
+        .banner-text h1 {
+            font-size: 40px;
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+        .banner-text h2 {
+            font-size: 18px;
+        }
         .about-content {
             margin-left: 80px;
             margin-right: 80px;
@@ -932,10 +944,14 @@ footer ul li {
             padding: 50px 55px;
         }
         .test1 p, .test2 p, .test3 p, .test4 p {
-            padding: 0px;
+            padding: 0px 40px;
+        }
+        .kitchen1 .overlay p, .kitchen2 .overlay p {
+            padding-left: 10px;
+            padding-right: 10px;
         }
         .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
-            padding-top: 40px;
+            padding-top: 80px;
         }
         .kitchen3 .overlay:hover {
             padding-top: 105px;
@@ -957,7 +973,7 @@ footer ul li {
             padding-right: 30px;
         }
         #map {
-            height: 500px;
+            height: 600px;
             width: 100%;
         }
         .footer-ctn ul {
@@ -969,29 +985,37 @@ footer ul li {
     @media(max-width: 500px) {
         .nav-ctn ul li a {
             font-size: 10px;
-            padding: 10px 5px;
+            padding: 10px 2px;
+        }
+        .banner-text {
+            margin-top: 30%;
         }
         .banner-text h1 {
-            font-size: 30px;
-            line-height: 35px;
+            font-size: 25px;
+            line-height: 15px;
             margin-bottom: 25px;
         }
         .banner-text h2 {
-            font-size: 18px;
+            font-size: 16px;
+            margin-bottom: 0px;
         }
         .about-content {
-            margin-left: 40px;
-            margin-right: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         .kitchen1, .kitchen2 {
             width: 100%;
+        }
+        .kitchen1 .overlay>p, .kitchen2 .overlay>p {
+            padding-left: 15px;
+            padding-right: 15px;
         }
         .kitchen3 .overlay:hover {
             padding-top: 80px;
         }
         .kitchen3 .overlay>p {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
         }
         .test1, .test2, .test3, .test4 {
             padding: 50px 55px;
@@ -1004,12 +1028,13 @@ footer ul li {
         }
         .column-container {
             width: 100%;
-            padding-left: 40px;
-            padding-right: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         .column-container p {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 35px;
+            padding-right: 35px;
+            margin-bottom: 0px;
         }
         #map {
             height: 500px;
