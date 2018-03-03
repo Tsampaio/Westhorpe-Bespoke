@@ -43,23 +43,24 @@ p {
 ========================================================================== */
 
 .nav-ctn {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
     align-items: center;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     height: 50px;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
     position: absolute;
     width: 100%;
+    padding-top: 20px;
 }
 
 .logo a {
-    color: white;
-    font-size: 15px;
+    color: #fff;
+    font-size: 16px;
     font-weight: 100;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -79,22 +80,33 @@ nav ul li {
 }
 
 .nav-ctn ul li a {
-    color: white;
-    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
     font-weight: 100;
-    justify-content: flex-end;
-    letter-spacing: 1px;
     padding: 10px 20px;
     text-decoration: none;
-    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .nav-ctn ul li a:hover {
-    color: #454646;
+    color: #fff;
 }
 
-.nav-ctn ul li:last-child a {
-    padding-right: 0px;
+/* CONTACT BUTTON
+=================================== */
+
+.nav-ctn .nav-contact {
+    color: #fff;
+    padding: 5px 17px 6px 17px;
+}
+
+.nav-contact {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+}
+
+.nav-contact:hover {
+    border: 2px solid #fff;
 }
 
 /* 2. HEADER
@@ -148,9 +160,9 @@ header {
     border-radius: 2px;
     color: #fff;
     display: block;
-    font-family: swift, sans-serif;
+    font-family: Lora, sans-serif;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 2px;
     margin-top: 25px;
     min-width: 235px;
@@ -163,9 +175,8 @@ header {
 }
 
 .btn-1:hover {
-    background-color: #fff;
-    border: 1px solid rgb(255, 255, 255);
-    color: #454646;
+    background-color: rgba(149, 165, 166, 0.8);
+    color: #fff;
     text-decoration: none;
 }
 
@@ -241,19 +252,17 @@ header {
 .btn-2 {
     align-items: center;
     background-color: #95A5A6;
-    border: none;
     border: 1px solid transparent;
     border-radius: 0px;
     color: #fff;
     display: inline-block;
-    font-family: swift, sans-serif;
+    font-family: Lora, sans-serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 2px;
     min-width: 235px;
     outline: 0;
     padding: 11px 30px;
-    text-align: center;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -307,7 +316,7 @@ header {
 }
 
 .kitchen1 .overlay:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding-top: 100px;
 }
 
@@ -367,9 +376,9 @@ header {
     border-radius: 2px;
     color: #fff;
     display: inline-block;
-    font-family: swift, sans-serif;
+    font-family: Lora, sans-serif;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
@@ -382,9 +391,8 @@ header {
 }
 
 .btn-1:hover {
-    background-color: transparent;
-    border: 1px solid #454646;
-    color: #454646;
+    background-color: rgba(149, 165, 166, 0.8);
+    color: #fff;
     text-decoration: none;
 }
 
@@ -412,7 +420,7 @@ header {
 }
 
 .kitchen2 .overlay:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding-top: 100px;
 }
 
@@ -469,9 +477,9 @@ header {
     border-radius: 2px;
     color: #fff;
     display: inline-block;
-    font-family: swift, sans-serif;
+    font-family: Lora, sans-serif;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
@@ -484,9 +492,9 @@ header {
 }
 
 .btn-1:hover {
-    background-color: transparent;
-    border: 1px solid #454646;
-    color: #454646;
+    background-color: rgba(149, 165, 166, 0.8);
+    color: #fff;
+    text-decoration: none;
 }
 
 /* KITCHEN 3
@@ -513,7 +521,7 @@ header {
 }
 
 .kitchen3 .overlay:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding-top: 100px;
 }
 
@@ -570,9 +578,9 @@ header {
     border-radius: 2px;
     color: #fff;
     display: inline-block;
-    font-family: swift, sans-serif;
+    font-family: Lora, sans-serif;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 2px;
     margin-top: 25px;
     max-width: 235px;
@@ -585,9 +593,9 @@ header {
 }
 
 .btn-1:hover {
-    background-color: transparent;
-    border: 1px solid #454646;
-    color: #454646;
+    background-color: rgba(149, 165, 166, 0.8);
+    color: #fff;
+    text-decoration: none;
 }
 
 /* 5. TESTIMONIALS
@@ -597,7 +605,7 @@ header {
     text-align: center;
 }
 
-.test1, .test2, .test3 {
+.test1, .test2, .test3, .test4 {
     background-color: #F4F4F4;
     background-position-y: 58%;
     background-repeat: no-repeat;
@@ -605,7 +613,7 @@ header {
     padding: 50px 0px;
 }
 
-.test1 h3, .test2 h3, .test3 h3 {
+.test1 h3, .test2 h3, .test3 h3, .test4 h3 {
     color: #959597;
     font-size: 10px;
     font-weight: 300;
@@ -614,7 +622,7 @@ header {
     text-transform: uppercase;
 }
 
-.test1 h2, .test2 h2, .test3 h2 {
+.test1 h2, .test2 h2, .test3 h2, .test4 h2 {
     color: #282829;
     font-size: 22px;
     letter-spacing: 2px;
@@ -622,23 +630,23 @@ header {
     text-align: center;
 }
 
-.horizontal-break1, .horizontal-break2, .horizontal-break3 {
+.horizontal-break1, .horizontal-break2, .horizontal-break3, .horizontal-break4 {
     background-color: #282829;
     height: 1px;
-    margin: 20px auto 25px;
+    margin: 20px auto 16px;
     width: 54px;
 }
 
-.test1 p, .test2 p, .test3 p {
+.test1 p, .test2 p, .test3 p, .test4 p {
     color: #282829;
     display: block;
     font-size: 20px;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    padding-bottom: 20px;
+    padding: 0px 250px;
 }
 
-.test1 cite, .test2 cite, .test3 cite {
+.test1 cite, .test2 cite, .test3 cite, .test4 cite {
     color: #282829;
     display: block;
     font-family: Merriweather;
@@ -681,7 +689,7 @@ q {
     background-color: #95A5A6;
     color: #fff;
     height: 100%;
-    padding: 40px 63.250px 63.250px 63.250px;
+    padding: 40px 63.250px;
     width: 50%;
 }
 
@@ -740,7 +748,7 @@ input [type=text], textarea {
     box-sizing: border-box;
     color: #282829;
     height: 150px;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
     margin-top: 6px;
     padding: 10px;
     resize: vertical;
@@ -755,6 +763,7 @@ input[type=submit] {
     cursor: pointer;
     padding: 12px 20px;
     width: 100%;
+    transition: all .1s ease-in-out;
 }
 
 input[type=submit]:hover {
@@ -806,17 +815,18 @@ footer ul li {
 }
 
 .footer-ctn ul li a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 100;
     justify-content: flex-end;
+    letter-spacing: 1px;
     padding: 10px 20px;
     text-decoration: none;
     margin-bottom: 0px;
 }
 
 .footer-ctn ul li a:hover {
-    color: black;
+    color: #fff;
     transition: 0.2s;
 }
 
@@ -825,131 +835,193 @@ footer ul li {
 }
 
 .social a {
-    color: #ffffff;
+    color: #fff;
     padding-left: 10px;
     text-decoration: none;
 }
 
 .social a:hover {
-    color: black;
+    color: #fff;
     transition: 0.2s;
 }
 
 /* MEDIA QUERIES
 ========================================================================== */
 
-/* IPAD
+/* IPAD PRO - LANDSCAPE
 =================================== */
 
-@media(max-width: 768px) {
+@media(max-width: 1366px) {
     header {
-        height: 50vh;
+        height: 100vh;
     }
-    .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
-        padding-top: 40px;
-    }
-    .kitchen3 .overlay:hover {
-        padding-top: 105px;
-    }
-    .kitchen3 .overlay>p {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .test1, .test2, .test3 {
-        padding: 50px 80px;
-    }
-    .footer-ctn ul {
-        display: none;
-    }
-}
-
-/****** FOR IPAD ***********/
-
-@media(max-width: 500px) {
     .nav-ctn ul li a {
         font-size: 10px;
         padding: 10px 5px;
     }
-    .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
-        padding-top: 40px;
-    }
-    .kitchen3 .overlay:hover {
-        padding-top: 105px;
-    }
-    .kitchen3 .overlay>p {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .test1, .test2, .test3 {
-        padding: 50px 80px;
-    }
-    .footer-ctn ul {
-        display: none;
-    }
-}
-
-/* IPHONE
-=================================== */
-
-@media(max-width: 500px) {
-    .nav-ctn ul li a {
-        font-size: 10px;
-        padding: 10px 5px;
-    }
-    .banner-text h1 {
-        font-size: 40px;
-        line-height: 45px;
-    }
-    .banner-text h2 {
-        font-size: 20px;
+    .banner-text {
+        margin-top: 30%;
+        text-align: center;
     }
     .about-content {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
-    .kitchen1, .kitchen2 {
-        width: 100%;
+    .test1, .test2, .test3, .test4 {
+        padding: 50px 200px;
     }
-    .kitchen3 .overlay:hover {
-        padding-top: 80px;
+    .test1 p, .test2 p, .test3 p, .test4 p {
+        padding: 0px;
     }
-    .kitchen3 .overlay>p {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .contact-row {
-        flex-wrap: wrap;
-    }
-    .column-container {
-        width: 100%;
-    }
-    .kitchen1, .kitchen2 {
-        width: 100%;
+    .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
+        padding-top: 115px;
     }
     .kitchen3 .overlay:hover {
-        padding-top: 80px;
+        padding-top: 125px;
     }
     .kitchen3 .overlay>p {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 350px;
+        padding-right: 350px;
     }
-    .contact-row {
-        flex-wrap: wrap;
+    /* IPAD PRO - PORTRAIT
+=================================== */
+    @media(max-width: 1024px) {
+        header {
+            height: 50vh;
+        }
+        .nav-ctn ul li a {
+            font-size: 10px;
+            padding: 10px 5px;
+        }
+        .about-content {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .test1, .test2, .test3, .test4 {
+            padding: 50px 55px;
+        }
+        .test1 p, .test2 p, .test3 p, .test4 p {
+            padding: 0px;
+        }
+        .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
+            padding-top: 80px;
+        }
+        .kitchen3 .overlay:hover {
+            padding-top: 125px;
+        }
+        .kitchen3 .overlay>p {
+            padding-left: 180px;
+            padding-right: 180px;
+        }
     }
-    .column-container {
-        width: 100%;
+    /* IPAD - NORMAL
+=================================== */
+    @media(max-width: 768px) {
+        header {
+            height: 50vh;
+        }
+        .nav-ctn ul li a {
+            font-size: 10px;
+            padding: 10px 5px;
+        }
+        .about-content {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .test1, .test2, .test3, .test4 {
+            padding: 50px 55px;
+        }
+        .test1 p, .test2 p, .test3 p, .test4 p {
+            padding: 0px;
+        }
+        .kitchen1 .overlay:hover, .kitchen2 .overlay:hover {
+            padding-top: 40px;
+        }
+        .kitchen3 .overlay:hover {
+            padding-top: 105px;
+        }
+        .kitchen3 .overlay>p {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .contact-row {
+            flex-wrap: wrap;
+        }
+        .column-container {
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .column-container p {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        .footer-ctn ul {
+            display: none;
+        }
     }
-    #map {
-        height: 500px;
-        width: 100%;
+    /* IPHONE
+=================================== */
+    @media(max-width: 500px) {
+        .nav-ctn ul li a {
+            font-size: 10px;
+            padding: 10px 5px;
+        }
+        .banner-text h1 {
+            font-size: 30px;
+            line-height: 35px;
+            margin-bottom: 25px;
+        }
+        .banner-text h2 {
+            font-size: 18px;
+        }
+        .about-content {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .kitchen1, .kitchen2 {
+            width: 100%;
+        }
+        .kitchen3 .overlay:hover {
+            padding-top: 80px;
+        }
+        .kitchen3 .overlay>p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .test1, .test2, .test3, .test4 {
+            padding: 50px 55px;
+        }
+        .test1 p, .test2 p, .test3 p, .test4 p {
+            padding: 0px;
+        }
+        .contact-row {
+            flex-wrap: wrap;
+        }
+        .column-container {
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .column-container p {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        .footer-ctn p:nth-child(2) {
+            display: none;
+        }
+        .footer-ctn {
+            justify-content: center;
+        }
+        .social a {
+            padding-left: 30px;
+        }
     }
-    .footer-ctn p:nth-child(2) {
-        display: none;
-    }
-    .footer-ctn {
-        justify-content: center;
-    }
-    .social a {
-        padding-left: 30px;
-    }
-}
