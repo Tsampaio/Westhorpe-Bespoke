@@ -243,7 +243,7 @@ header {
     font-size: 16px;
     letter-spacing: 0.2px;
     line-height: 1.8;
-    padding-bottom: 25px;
+    padding: 0px 75px 25px 75px;
 }
 
 /* BUTTON
@@ -522,7 +522,7 @@ header {
 
 .kitchen3 .overlay:hover {
     background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .kitchen3 .overlay h3 {
@@ -610,7 +610,7 @@ header {
     background-position-y: 58%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 50px 175px;
 }
 
 .test1 h3, .test2 h3, .test3 h3, .test4 h3 {
@@ -657,7 +657,7 @@ header {
 }
 
 q {
-    font-family: Merriweather;
+    font-family: Merriweather sans-serif;
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
